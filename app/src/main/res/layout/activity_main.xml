@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.uhome.haier.bfvideodemo.MainActivity">
+
+    <bf.cloud.BFMediaPlayerControllerVod
+        android:id="@+id/vod_media_controller_vod"
+        android:layout_width="match_parent"
+        android:layout_height="260dp" >
+    </bf.cloud.BFMediaPlayerControllerVod>
+</RelativeLayout>
