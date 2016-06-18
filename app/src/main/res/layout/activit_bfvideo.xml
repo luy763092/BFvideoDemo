@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:padding="10dp"
         android:id="@+id/video_player"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:textColor="@android:color/black"
         />
     <TextView
+        android:padding="10dp"
         android:id="@+id/live_player"
         android:gravity="center"
         android:layout_width="match_parent"
@@ -23,4 +25,5 @@
         android:textSize="20sp"
         android:textColor="@android:color/black"
         />
+
 </LinearLayout>
